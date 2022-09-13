@@ -3,4 +3,15 @@
   <groupId>nz.ac.massey.cs.251</groupId>
   <artifactId>Maven_Tutorial</artifactId>
   <version>1.0.0</version>
+  <properties>
+    <maven.compiler.source>17</maven.compiler.source>
+    <maven.compiler.target>17</maven.compiler.target>
+  </properties>
+  <dependencies>
+    <dependency>
+    <groupId>com.google.guava</groupId>
+    <artifactId>guava</artifactId>
+    <version>18.0</version>
+    </dependency>
+  </dependencies>
 </project>
